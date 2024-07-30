@@ -10,8 +10,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 	<!-- <link href="./bootstrapCSS.css" rel="stylesheet"> -->
 	<link rel="stylesheet" href="style.css">
-	<script src="./bootstrapJS.js"
-		></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+	<script src="./script.js"></script>
 </head>
 
 <body>
@@ -34,7 +35,8 @@
 	<main>
 		<section class="firstSection" id="home">
 			<div class="leftSection">
-				Hii , My Name is <br> <div style="color: rgb(95, 95, 212);">Mehul Vijayvargiya</div>
+				Hii , My Name is <br>
+				<div style="color: rgb(95, 95, 212);">Mehul Vijayvargiya</div>
 				<div>I am Passoniate</div>
 				<span id="element"></span>
 			</div>
@@ -51,13 +53,16 @@
 				<h1>EDUCATION</h1>
 				<dl>
 					<dt>Higher Secondary Education</dt>
-					<dd> - Completed with the percentage of 94.8% from the Patra Gurukul International School , Barwaha as City Topper in the year 2020</dd>
+					<dd> - Completed with the percentage of 94.8% from the Patra Gurukul International School , Barwaha
+						as City Topper in the year 2020</dd>
 
 					<dt>Senior Secondary Education</dt>
-					<dd> - Completed with the percentage of 97.3% from the Kendriya Vidylaya , Barwaha as the CBSE District Topper and the KV Regional Topper in the year 2022</dd>
+					<dd> - Completed with the percentage of 97.3% from the Kendriya Vidylaya , Barwaha as the CBSE
+						District Topper and the KV Regional Topper in the year 2022</dd>
 
 					<dt>Masters of Technology</dt>
-					<dd> - Pursuing the Master of the Technology from International Institute of Professional Studies - DAVV , Indore in the Batch 2k22 - 2k27 with the current CGPA 9.76</dd>
+					<dd> - Pursuing the Master of the Technology from International Institute of Professional Studies -
+						DAVV , Indore in the Batch 2k22 - 2k27 with the current CGPA 9.76</dd>
 				</dl>
 			</div>
 
@@ -68,7 +73,8 @@
 					<dd> <a href="https://github.com/mehul1908" target="_blank">https://github.com/mehul1908</a></dd>
 
 					<dt>Linked In</dt>
-					<dd><a href="https://www.linkedin.com/in/mehul-vv" target="_blank">https://www.linkedin.com/in/mehul-vv</a></dd>
+					<dd><a href="https://www.linkedin.com/in/mehul-vv"
+							target="_blank">https://www.linkedin.com/in/mehul-vv</a></dd>
 
 					<dt>Gmail</dt>
 					<dd><a href="mehul.vv19@gmail.com" target="_blank">mehul.vv19@gmail.com</a></dd>
@@ -89,38 +95,17 @@
 			</section>
 			<section class="project" id="project1">
 				<h1>Library Management</h1>
-				<div>
-					<div id="project1Carousel" class="carousel slide  carousel-dark" data-bs-ride="false">
-						<div class="carousel-indicators">
-							<button type="button" data-bs-target="#project1Carousel" data-bs-slide-to="0" class="active"
-								aria-current="true" aria-label="Slide 1"></button>
-							<button type="button" data-bs-target="#project1Carousel" data-bs-slide-to="1"
-								aria-label="Slide 2"></button>
-						</div>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="project1a.png" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="project1b.png" class="d-block w-100" alt="...">
-							</div>
-
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#project1Carousel"
-							data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#project1Carousel"
-							data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
+				<div class="project-data">
+					<div class="slider">
+						<button onclick="leftpro1()">&larr;</button>
+						<img src="Project1a.png" id="proj1">
+						<button onclick="rightpro1()">&rarr;</button>
 					</div>
-					<!-- <br> <hr> -->
 					<div class="project-text">
-						This is project is developed with the help of the django framework of Python.This project helps
-						the institute by managing the Library tasks easyly by giving the basic functionality which is
+						This is project is developed with the help of the django framework of Python.This project
+						helps
+						the institute by managing the Library tasks easyly by giving the basic functionality which
+						is
 						required
 						for the library. Its main functionalities are:-
 						<ul>
@@ -135,80 +120,27 @@
 					</div>
 				</div>
 			</section>
-<hr>
+			<hr>
 			<!-- project 2 -->
 			<section class="project" id="project2">
 				<h1>Bank Management</h1>
-				<div>
-					<div id="project2Carousel" class="carousel slide  carousel-dark" data-bs-ride="false">
-						<div class="carousel-indicators">
-							<button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="0" class="active"
-								aria-current="true" aria-label="Slide 1"></button>
-							<button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="1"
-								aria-label="Slide 2"></button>
-							<button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="2"
-								aria-label="Slide 3"></button>
-							<button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="3"
-								aria-label="Slide 4"></button>
-							<button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="4"
-								aria-label="Slide 5"></button>
-							<button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="5"
-								aria-label="Slide 6"></button>
-							<button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="6"
-								aria-label="Slide 7"></button>
-							<button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="7"
-								aria-label="Slide 8"></button>
-						</div>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="project2a.png" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="project2b.png" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="project2c.png" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="project2d.png" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="project2e.png" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="project2f.png" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="project2g.png" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="project2h.png" class="d-block w-100" alt="...">
-							</div>
-
-
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#project2Carousel"
-							data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#project2Carousel"
-							data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
+				<div class="project-data">
+					<div class="slider">
+						<button onclick="leftpro2()">&larr;</button>
+						<img src="Project2a.png" id="proj2">
+						<button onclick="rightpro2()">&rarr;</button>
 					</div>
 					<!-- <br> -->
 					<div class="project-text">
 						<p>This project is created with the help of the HTML , CSS and Javascript for the Bank daily
 							Functionalities such as :-
-							<ul>
-								<li>Account Creation</li>
-								<li>Amount Withdrawal and Deposit</li>
-								<li>User Authorization</li>
-								<li>Fund Transfer</li>
-								<li>Transaction History</li>
-							</ul>
+						<ul>
+							<li>Account Creation</li>
+							<li>Amount Withdrawal and Deposit</li>
+							<li>User Authorization</li>
+							<li>Fund Transfer</li>
+							<li>Transaction History</li>
+						</ul>
 						</p>
 						<a target="_blank" href="https://github.com/mehul1908/bank_apk">Source Code</a><br>
 						<a target="_blank" href="https://mehul1908.github.io/bank_apk/">Deployment Link</a>

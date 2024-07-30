@@ -1,175 +1,181 @@
 * {
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 body {
-	background-color: rgb(1, 1, 88);
-	color: white;
+  background-color: rgb(1, 1, 88);
+  color: white;
 
-	font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.left{
-	align-items: center;
+.left {
+  align-items: center;
 }
 
 nav {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	height: 12vh;
-	background-color: rgb(1, 1, 29);
-	width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+  background-color: rgb(1, 1, 29);
+  width: 100%;
 }
 
 nav ul {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul li {
-	list-style: none;
-	margin: 0px 3vw;
+  list-style: none;
+  margin: 0px 3vw;
 }
 
 nav ul li a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 nav ul li a:hover {
-	color: rgb(114, 161, 202);
-	font-size: 1.04rem;
+  color: rgb(114, 161, 202);
+  font-size: 1.04rem;
 }
 
 nav .left {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 .firstSection {
-	display: flex;
-	justify-content: space-around;
-	margin: 6vh 0;
-	align-items: center;
-	height: 100%
+  display: flex;
+  justify-content: space-around;
+  margin: 6vh 0;
+  align-items: center;
+  height: 100%;
 }
 
-.firstSection>div {
-	width: 35%;
+.firstSection > div {
+  width: 35%;
 }
 
 .firstSection .leftSection {
-	font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .rightSection img {
-	width: 35vw;
+  width: 35vw;
 }
 
 #element {
-	color: rgb(95, 95, 212);
+  color: rgb(95, 95, 212);
 }
 
-
-#about{
-	height: 100dvh;
-	width: 100dvw;
-	position: relative;
-	display: flex;
-	justify-content:space-between;
+#about {
+  height: 100dvh;
+  width: 100dvw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
-#about > h1{
-	writing-mode: vertical-lr;
-	 text-orientation: upright;
-	 width: 5%;
-	 height: 100%;
-	 text-align: center;
-	 /* padding:  auto ; */
-	 font-size: 2rem;
-	 left: 3%;
-	 background-color: rgb(1, 1, 29);
-	font-weight: 700;
-	font-size: 2.5rem;
+#about > h1 {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  width: 5%;
+  height: 100%;
+  text-align: center;
+  /* padding:  auto ; */
+  font-size: 2rem;
+  left: 3%;
+  background-color: rgb(1, 1, 29);
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
-#about div{
-	width: 40%;
-	margin: 15px;
+#about div {
+  width: 40%;
+  margin: 15px;
 }
 
-#about div h1{
-	overflow-y: hidden;
-	text-align: center;
+#about div h1 {
+  overflow-y: hidden;
+  text-align: center;
 }
 
-.project{
-	height: 100dvh;
-	width: 100dvw;
-	position: relative;
-	display: flex;
+.project {
+  height: 100dvh;
+  width: 100dvw;
+  position: relative;
+  display: flex;
 }
 
 .project > h1 {
-	 writing-mode: vertical-lr;
-	 text-orientation: upright;
-	 width :10vw;
-	 height: 100%;
-	 text-align: center;
-	 padding:  auto ;
-	 font-size: 2rem;
-	 left: 3%;
-	 background-color: rgb(1, 1, 29);
-	font-weight: 700;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  width: 10vw;
+  height: 100%;
+  text-align: center;
+  padding: auto;
+  font-size: 2rem;
+  left: 3%;
+  background-color: rgb(1, 1, 29);
+  font-weight: 700;
 }
 
-
-.carousel{
-	padding: 10px;
-	margin: 0 auto;
-	width: 60%;
-	height: 60%;
+.project-text {
+  padding-left: 28px;
 }
 
-.project-text{
-	padding-left: 28px;
+hr {
+  border: 0;
+  height: 5px;
+  margin: 10px;
+  background-color: rgb(1, 1, 29);
 }
-
-hr{
-	border: 0;
-	height: 5px;
-	margin: 10px;
-	background-color: rgb(1, 1, 29);
-}
-
-
 
 .projectMainPage {
-	display: flex;
-	justify-content: space-around;
-	margin: 6vh 0;
-	align-items: center;
-	height: 100vh
+  display: flex;
+  justify-content: space-around;
+  margin: 6vh 0;
+  align-items: center;
+  height: 100vh;
 }
 
-.projectMainPage>div {
-	width: 35%;
+.projectMainPage > div {
+  width: 35%;
 }
 
 .projectMainPage .leftSection {
-	font-size: 4rem;
-	font-weight: bolder;
-	overflow-y: hidden;
-	align-items: center;
-	justify-content: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
 }
+
+
 
 .rightSection img {
-	width: 35vw;
+  width: 35vw;
+}
+
+.slider img{
+  width: 55dvw;
+  height: 55dvh;
+}
+
+.slider{
+display: flex;
+/* align-self: center; */
+margin: 20px;
 
 }
 
-
+.slider button{
+border: 0;
+background-color: transparent;
+color: white;
+}
